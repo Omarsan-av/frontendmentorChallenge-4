@@ -56,7 +56,7 @@ main
 .info h1
 {
    color: #3e2753;
-   font-size: 32px;
+   font-size: 38px;
    font-weight: 500;
    margin-bottom: 25px;
    letter-spacing: 1px;
@@ -145,4 +145,112 @@ main
    color: white;
    display: flex;
    align-items: center;
+}
+
+.body-chat 
+{
+   margin-top: -15px;
+}
+
+.conversation 
+{
+   height: auto;
+   padding: 7px 10px;
+   border-radius: 15px;
+   max-width: 62%;
+   min-width: auto;
+   font-size: 10px;
+   margin: 0 10px 10px;
+   line-height: 15rem;
+   box-sizing: border-box;
+}
+
+.someone 
+{
+   background-color: #f0e0f6;
+   color: hsl(276, 55%, 52%);
+}
+
+.samuel 
+{
+   background-color: white;
+   color: #7a777e;
+   box-shadow: 0px 12px 20px 0px #e9e7e7;
+}
+
+.left
+{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.left img 
+{
+   width: 45px;
+   height: 45px;
+   border-radius: 12px;
+   margin-right: 8px;
+}
+
+.spaces-images
+{
+   margin-top: 18px;
+   margin-bottom: 9px;
+}
+
+.space-top 
+{
+   margin-top: 10px;
+}
+
+.button
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 12px 20px;
+   font-size: 10px;
+   margin-bottom: 9px;
+   margin-left: 10px;
+   box-sizing: border-box;
+}
+
+.violet
+{
+   background: linear-gradient(to left, #8838ff, #e942ff);
+   border-radius: 13px 10px 10px 5px;
+   width: 70%;
+   color: #f5f3f7;
+}
+
+.white 
+{
+   background-color: white;
+   border-radius: 17px;
+   width: auto;
+   color: #c6cacd;
+   margin: 20px 10px 15px;
+   box-shadow: 0px 12px 20px 0px #e9e7e7;
+   padding: 6px 20px;
+}
+
+.buttons p:nth-child(2)
+{
+   font-size: 13px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   color: white;
+}
+
+.circle 
+{
+   width: 27px;
+   height: 27px;
+   border-radius: 50%;
+   color: white;
+   background-color: #3e2753;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
 }
