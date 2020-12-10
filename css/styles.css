@@ -26,8 +26,8 @@ body
 main
 {
    background-color: rgb(245, 243, 247);
-   width: 70vw;
-   height: 80vh;
+   width: 260px;
+   height: auto;
    border-radius: 25px;
    margin-top: 65px;
    border: 10px solid white;
